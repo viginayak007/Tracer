@@ -1,0 +1,57 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+html, body, #map-canvas, #container { height: 100%; margin: 0; padding: 0;}
+
+body{
+	font-family: 'Ubuntu', sans-serif;
+}
+#nav{
+	position: relative;
+	height: 100%;
+	z-index: 1;
+	background: #333;
+	box-shadow: 0px 10px 10px #000;
+	color: #fff;
+}
+
+#nav ul, 
+#nav li{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+#nav li strong{
+	display: block;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-decoration: underline;
+	margin-top: 10px;
+}
+
+#waiting{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	margin-top: -10px;
+	font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
